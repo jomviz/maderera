@@ -26,8 +26,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.16010347536766467,
-          "pitch": 0.12460940298663559,
+          "yaw": 0.14334933261094207,
+          "pitch": 0.09302520980440399,
           "rotation": 0,
           "target": "1-2-estar-comedor"
         }
@@ -60,20 +60,20 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.150414246362029,
-          "pitch": 0.42385986902828066,
+          "yaw": 1.1227478791719587,
+          "pitch": 0.39565739353470875,
           "rotation": 0,
-          "target": "3-4-galeria-parrilla"
+          "target": "2-4-galeria-parrilla"
         },
         {
-          "yaw": -1.024299925589153,
-          "pitch": 0.37296116379224387,
+          "yaw": -1.0686512522068377,
+          "pitch": 0.3810532142773351,
           "rotation": 0,
-          "target": "4-5-paso"
+          "target": "3-5-paso"
         },
         {
-          "yaw": -2.048570129645828,
-          "pitch": 0.38272079748191956,
+          "yaw": -2.031032987968711,
+          "pitch": 0.4172487535237721,
           "rotation": 0,
           "target": "0-1-vereda"
         }
@@ -81,8 +81,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-3-dormitorio-principal",
-      "name": "3 Dormitorio Principal",
+      "id": "2-4-galeria-parrilla",
+      "name": "4 Galeria Parrilla",
       "levels": [
         {
           "tileSize": 256,
@@ -106,43 +106,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.4633179960580227,
-          "pitch": 0.7209239218758956,
+          "yaw": -0.01189880928506426,
+          "pitch": 0.5661604948012613,
           "rotation": 0,
-          "target": "4-5-paso"
+          "target": "1-2-estar-comedor"
+        },
+        {
+          "yaw": 2.0446990464601225,
+          "pitch": 0.11304499355545694,
+          "rotation": 0,
+          "target": "4-3-dormitorio-principal"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-4-galeria-parrilla",
-      "name": "4 Galeria Parrilla",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-5-paso",
+      "id": "3-5-paso",
       "name": "5 Paso",
       "levels": [
         {
@@ -167,28 +146,56 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.0164260102272307,
-          "pitch": 0.31861824897247715,
+          "yaw": 0.9927225789297651,
+          "pitch": 0.7322081448998947,
           "rotation": 0,
-          "target": "1-2-estar-comedor"
+          "target": "4-3-dormitorio-principal"
         },
         {
-          "yaw": 0.8687930736023226,
-          "pitch": 0.33290469389361554,
-          "rotation": 0,
-          "target": "2-3-dormitorio-principal"
-        },
-        {
-          "yaw": 2.0258333088856073,
-          "pitch": 1.119581756119219,
+          "yaw": 2.9764000910017154,
+          "pitch": 1.2656246721037618,
           "rotation": 0,
           "target": "5-6-dormitorio-2"
         },
         {
-          "yaw": 2.066139779793258,
-          "pitch": 0.7706687995666126,
+          "yaw": 2.5171187703226003,
+          "pitch": 0.8496896999030668,
           "rotation": 0,
           "target": "6-7-dormitorio-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-3-dormitorio-principal",
+      "name": "3 Dormitorio Principal",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4053993817099126,
+          "pitch": 0.8328760065557734,
+          "rotation": 0,
+          "target": "3-5-paso"
         }
       ],
       "infoHotspots": []
@@ -219,10 +226,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.8752358223645427,
-          "pitch": 0.6051387725603252,
+          "yaw": 2.841291260907404,
+          "pitch": 0.635710869780457,
           "rotation": 0,
-          "target": "4-5-paso"
+          "target": "3-5-paso"
         }
       ],
       "infoHotspots": []
@@ -253,10 +260,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.405084524342662,
-          "pitch": 0.593621015959906,
+          "yaw": -2.462516802422538,
+          "pitch": 0.6227534944863962,
           "rotation": 0,
-          "target": "4-5-paso"
+          "target": "3-5-paso"
         }
       ],
       "infoHotspots": []
@@ -266,7 +273,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
